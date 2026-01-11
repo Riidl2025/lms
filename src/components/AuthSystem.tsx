@@ -73,7 +73,7 @@
 
 
 import React, { useState } from 'react';
-import type { User, InstituteCode } from './Types';
+import type { User } from './Types';
 
 interface AuthSystemProps {
   onLogin: (user: User, token: string) => void;
